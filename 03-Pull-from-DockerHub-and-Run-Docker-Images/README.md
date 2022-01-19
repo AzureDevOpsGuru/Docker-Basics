@@ -8,13 +8,12 @@ docker login
 
 ## Step-2: Pull Image from Docker Hub
 ```
-docker pull my-image/dockerintro-springboot-helloworld-rest-api:1.0.0-RELEASE
+docker pull springboot/helloworld
 ```
 
 ## Step-3: Run the downloaded Docker Image & Access the Application
 - Copy the docker image name from Docker Hub
 ```
-docker run --name app1 -p 80:8080 -d stacksimplify/dockerintro-springboot-helloworld-rest-api:1.0.0-RELEASE
 http://localhost/hello
 
 # For Mac with Apple Chips (use different application)
