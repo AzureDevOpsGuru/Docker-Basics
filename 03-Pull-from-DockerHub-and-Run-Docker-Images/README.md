@@ -20,11 +20,11 @@ http://localhost/hello
 Step-1: Install Docker with Apple Chips binary (https://docs.docker.com/desktop/mac/install/) on your mac machine
 
 Step-2: Run the simple Nginx Application container. 
-docker run --name kube1 -p 80:80 --platform linux/amd64 -d  stacksimplify/kubenginx:1.0.0
+docker run --name kube1 -p 80:80 --platform linux/amd64 -d  your-image/kubenginx:1.0.0
 http://localhost
 
 ## Sample Output
-docker run --name kube1 -p 80:80 --platform linux/amd64 -d  stacksimplify/kubenginx:1.0.0
+docker run --name kube1 -p 80:80 --platform linux/amd64 -d  your-image/kubenginx:1.0.0
 370f238d97556813a4978572d24983d6aaf80d4300828a57f27cda3d3d8f0fec
  curl http://localhost
 <!DOCTYPE html>
